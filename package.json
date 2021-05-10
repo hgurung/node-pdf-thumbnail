@@ -1,0 +1,17 @@
+{
+  "name": "node-pdf-thumbnail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["thumbnail conversion from pdf"],
+  "author": "Harris Gurung",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.0.0-2",
+    "express": "^4.17.1"
+  }
+}
